@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="8dp"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/detail_accent_pane_background"
+  >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"  android:gravity="right"   android:layout_gravity="right|center"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        >
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/test_text"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/League"-->
+            <!--android:id="@+id/league_textview"/>-->
+        <TextView android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/test_text"
+            android:textSize="@dimen/League"
+            android:textColor="@android:color/white"
+            android:id="@+id/matchday_textview"/>
+    </LinearLayout>
+
+</LinearLayout>

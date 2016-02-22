@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_horizonal_margin">2dp</dimen>
+    <dimen name="share_button_margin">150dp</dimen>
+    <dimen name="TeamNames">12sp</dimen>
+    <dimen name="Score">16sp</dimen>
+    <dimen name="League">15sp</dimen>
+
+    <!-- Needed if we aren't including the Material Design Library -->
+    <dimen name="appbar_elevation">4dp</dimen>
+    <dimen name="notification_large_icon_default">48dp</dimen>
+    <!-- The amount we want the details view to overlap the app bar -->
+    <dimen name="details_app_bar_overlap">24dp</dimen>
+
+    <!-- Today Widget -->
+    <dimen name="widget_today_default_width">240dp</dimen>
+    <dimen name="widget_today_default_height">60dp</dimen>
+
+    <dimen name="widget_detail_default_width">250dp</dimen>
+    <dimen name="widget_detail_default_height">60dp</dimen>
+    <dimen name="widget_detail_min_resize_width">220dp</dimen>
+    <dimen name="widget_detail_min_resize_height">@dimen/widget_detail_default_height</dimen>
+    <dimen name="football_list_padding">5dp</dimen>
+</resources>
